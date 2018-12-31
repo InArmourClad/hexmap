@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\HexMapEditor.cs" />
      <Compile Include="Assets\Scripts\HexMesh.cs" />
      <Compile Include="Assets\Scripts\HexMetrics.cs" />
+     <Compile Include="Assets\Structs\EdgeVertices.cs" />
      <Compile Include="Assets\Structs\HexCoordinates.cs" />
      <None Include="Assets\Shaders\VertexColors.shader" />
  <Reference Include="UnityEngine.UI">
