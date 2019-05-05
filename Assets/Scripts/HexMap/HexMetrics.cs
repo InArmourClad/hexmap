@@ -16,11 +16,13 @@ public class HexMetrics : MonoBehaviour {
     public const float verticalTerraceStepSize = 1f / (terracesPerSlope + 1);
 
     public static Texture2D noiseSource;
-    public const float cellPerturbStrength = 4f;
+    public const float cellPerturbStrength = 0f;//4f;
     public const float noiseScale = 0.003f;
     public const float elevationPerturbStrength = 1.5f;
 
     public const int chunkSizeX = 5, chunkSizeZ = 5;
+
+    public const float streamBedElevationOffset = -1f;
 
 	public static Vector3[] corners = {
 		new Vector3(0f, 0f, outerRadius),
