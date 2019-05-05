@@ -128,9 +128,9 @@ public class HexGrid : MonoBehaviour {
     }
 
     void TouchCell(Vector3 pos) {
-        pos = transform.InverseTransformPoint(pos);
-        HexCoordinates coordinates = HexCoordinates.FromPosition(pos);
-        int index = coordinates.X + coordinates.Z * cellCountX + coordinates.Z / 2;
+        //pos = transform.InverseTransformPoint(pos);
+        //HexCoordinates coordinates = HexCoordinates.FromPosition(pos);
+        //int index = coordinates.X + coordinates.Z * cellCountX + coordinates.Z / 2;
     }
 
     public void ColorCell(Vector3 pos, Color col) {
