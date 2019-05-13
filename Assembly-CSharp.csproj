@@ -55,9 +55,11 @@
      <Compile Include="Assets\Scripts\HexMap\HexMapEditor.cs" />
      <Compile Include="Assets\Scripts\HexMap\HexMesh.cs" />
      <Compile Include="Assets\Scripts\HexMap\HexMetrics.cs" />
+     <Compile Include="Assets\Scripts\HexMap\ListPool.cs" />
      <Compile Include="Assets\Structs\EdgeVertices.cs" />
      <Compile Include="Assets\Structs\HexCoordinates.cs" />
      <None Include="Assets\Shaders\VertexColors.shader" />
+     <None Include="Assets\Shaders\River.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

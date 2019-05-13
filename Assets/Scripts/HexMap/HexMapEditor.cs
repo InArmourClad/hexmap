@@ -109,7 +109,10 @@ public class HexMapEditor : MonoBehaviour {
             if (riverMode == OptionalToggle.No) {
                 cell.RemoveRiver();
             } else if (isDrag && riverMode == OptionalToggle.Yes) {
-                previousCell.SetOutgoingRiver(dragDirection);
+                HexCell otherCell = cell.GetNeighbour(dragDirection.Opposite());
+                if (otherCell) {
+                    otherCell.SetOutgoingRiver(dragDirection);
+                }
             }
         }
     }

@@ -68,6 +68,14 @@ public class HexCell : MonoBehaviour {
         }
     }
 
+    public float RiverSurfaceY {
+        get {
+            return
+                (elevation + HexMetrics.riverSurfaceElevationOffset) *
+                HexMetrics.elevationStep;
+        }
+    }
+
     public void RemoveOutgoingRiver() {
         if (!hasOutgoingRiver) {
             return;
@@ -200,4 +208,5 @@ public class HexCell : MonoBehaviour {
             }
         }
     }
+
 }
