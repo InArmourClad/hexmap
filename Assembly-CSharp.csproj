@@ -47,14 +47,19 @@
   <ItemGroup>
      <Compile Include="Assets\Enums\HexDirection.cs" />
      <Compile Include="Assets\Enums\HexEdgeType.cs" />
-     <Compile Include="Assets\Scripts\HexCell.cs" />
-     <Compile Include="Assets\Scripts\HexCoordinatesDrawer.cs" />
-     <Compile Include="Assets\Scripts\HexGrid.cs" />
-     <Compile Include="Assets\Scripts\HexMapEditor.cs" />
-     <Compile Include="Assets\Scripts\HexMesh.cs" />
-     <Compile Include="Assets\Scripts\HexMetrics.cs" />
+     <Compile Include="Assets\Scripts\Camera\HexMapCamera.cs" />
+     <Compile Include="Assets\Scripts\HexMap\HexCell.cs" />
+     <Compile Include="Assets\Scripts\HexMap\HexCoordinatesDrawer.cs" />
+     <Compile Include="Assets\Scripts\HexMap\HexGrid.cs" />
+     <Compile Include="Assets\Scripts\HexMap\HexGridChunk.cs" />
+     <Compile Include="Assets\Scripts\HexMap\HexMapEditor.cs" />
+     <Compile Include="Assets\Scripts\HexMap\HexMesh.cs" />
+     <Compile Include="Assets\Scripts\HexMap\HexMetrics.cs" />
+     <Compile Include="Assets\Scripts\HexMap\ListPool.cs" />
+     <Compile Include="Assets\Structs\EdgeVertices.cs" />
      <Compile Include="Assets\Structs\HexCoordinates.cs" />
      <None Include="Assets\Shaders\VertexColors.shader" />
+     <None Include="Assets\Shaders\River.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
